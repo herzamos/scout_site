@@ -1,0 +1,29 @@
+.heading-circolari {
+    color: white;
+    text-align:center;
+    display: block;
+    text-align: center;
+}
+
+.heading-circolari span {
+    padding-left: 40%;
+    padding-right: 40%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.pdf-ref {
+    display: block;
+    align-items: center;
+    text-align:center;
+}
+
+.pdf-ref img {
+    display: inline;
+    text-align: center;
+}
+
+.no-margin-main {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
