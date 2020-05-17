@@ -1,3 +1,18 @@
+q {
+    font-style: italic;
+    font-weight: 300;
+    display: block;
+    text-align: center;
+    font-size: 20pt;
+}
+
+span.author {
+    padding-top: 15px;
+    padding-bottom: 30px;
+    display: block;
+    text-align: center;
+}
+
 /* Mobile title */
 @media only screen and (max-width: 768px) {
     #maintitle {
@@ -47,7 +62,6 @@ p {
 
 body {
     background-color: white;
-    color: black;
     margin: 0;
     font-family: openSans;
     font-weight: 400;
@@ -60,47 +74,30 @@ main {
     margin-bottom: 5%;
 }
 
-footer {
-    background-color: #333333;
-    padding-top: 3%;
-    padding-bottom: 3%;
-    color: white;
-    font-size: 10pt;
-}
-
-footer div a {
-    color: white;
-    text-decoration: none;
-}
-
-footer div {
-    text-align: center;
-}
+/* Footer styling*/
 
 @media only screen and (min-width: 768px) {
-    footer div {
-        display: inline-block;
+    footer div a {
+        color: white;
+        text-decoration: none;
     }
-
-    .left {
-        text-align:left;
-        float:left;
-        width: 40%;
+    
+    footer {
+    
+        background-color: #333333;
+        padding-top: 3%;
+        padding-bottom: 7%;
+        color: white;
+        font-size: 10pt;
     }
-
-    .right {
-        float:right;
-        text-align:right;
-        width: 40%;
-    }
-
-    .centered {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    
+    .footer-column {
+        text-align: center;
+        float: left;
+        width: 25%;
+        text-align: center;
     }
 }
-
 
 p.main {
     text-align: justify;

@@ -28,6 +28,8 @@
         </header>
         <main>
             <div>
+                <h1>Lo scoutismo</h1>
+                <p><q>Cercate di lasciare questo mondo un po'<br>migliore di quanto non l'avete trovato.</q><span class="author"><b>- Robert Baden-Powell</b></span></p>
                 <p><b>Lorem ipsum dolor sit amet</b>, consectetur adipiscing elit. Proin eget nisi sem. Ut sed nulla convallis, tempor magna id, porta libero. Etiam porttitor dolor vel eros egestas eleifend. Sed et euismod lorem. In imperdiet diam ornare, egestas ipsum sit amet, sollicitudin risus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas non purus non purus ullamcorper egestas.</p>
                 <p>Nullam et massa enim. Aenean et lectus mauris. Aliquam eget sapien sed purus sagittis bibendum nec at libero. Nullam egestas convallis neque non iaculis. Praesent sed mauris velit. Maecenas non nisl eu leo faucibus luctus. Duis gravida sed sapien quis aliquam. Ut ipsum odio, aliquam sit amet nunc sed, egestas vehicula libero. Duis eget dolor tincidunt, efficitur erat ac, sodales nunc. Etiam sit amet accumsan purus.</p>
                 <p>Phasellus elit dolor, tincidunt non eros eget, vehicula pharetra nunc. Morbi blandit, arcu sed facilisis mattis, quam urna tempor nulla, ut imperdiet risus eros vitae tortor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent sed ante urna. Aliquam turpis diam, dictum feugiat scelerisque at, condimentum facilisis lectus. Proin mauris mauris, tempor sit amet condimentum id, tempus quis sapien. Nam sagittis nisi lacus, at tempus enim tempus quis. Nullam euismod gravida maximus. Etiam non purus quis dui feugiat placerat nec non orci. Mauris dignissim vel odio quis iaculis. Etiam eu orci tristique, varius mauris eget, varius est. Aenean eleifend enim quis ex vehicula, in dictum diam gravida. Vestibulum ultricies nisl in nisi tincidunt, in consequat metus volutpat.</p>
@@ -38,15 +40,13 @@
             </div>
         </main>
         <footer>
-            <div class="left">
-                <p style="text-align:center;">Contattaci via mail all'indirizzo<br><a href="mailto:info@scoutrancatestabio.ch" target="_blank">info@scoutrancatestabio.ch</a></p>
+            <div id="footer-placeholder">
             </div>
-            <div class="right">
-                <p style="text-align:center;">&copy; Scout Rancate Stabio.<br>Tutti i diritti riservati.</p>
-            </div>
-            <div class="centered">
-                <p style="text-align:center;">Ci trovi anche su<br><a href="https://www.instagram.com/scoutrancatestabio" target="_blank"><i class="fab fa-instagram"></i>&nbspInstagram</a></p>
-            </div>
+            <script>
+                $(function() {
+                    $("#footer-placeholder").load("../footer.html");
+                });
+            </script>
         </footer>
         <script src="../js/navbar.js" type="text/javascript"></script>
     </body>

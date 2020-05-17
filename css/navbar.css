@@ -1,5 +1,3 @@
-
-/* Add a black background color to the top navigation */
 .topnav {
   font-family: openSans;
   font-weight: 600;
@@ -11,9 +9,9 @@
   background-color: white;
   box-shadow: 0 4px 2px -2px rgba(0,0,0,.2);
   z-index: 99;
+  text-align: center;
 }
 
-/* Style the links inside the navigation bar */
 .topnav a {
   float: left;
   text-align: match-parent;
@@ -44,7 +42,6 @@
   overflow: hidden;
 }
 
-/* Style the dropdown button to fit inside the topnav */
 .dropdown .dropbtn {
   background-color: white;
   font-family: openSans;
@@ -56,7 +53,6 @@
   font-size: 16px;
 }
 
-/* Style the dropdown content (hidden by default) */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -65,7 +61,6 @@
   z-index: 99;
 }
 
-/* Style the links inside the dropdown */
 .dropdown-content a {
   float: none;
   text-decoration: none;
@@ -74,7 +69,6 @@
   text-align: left;
 }
 
-/* Add a dark background on topnav links and the dropdown button on hover */
 .topnav a:hover {
   border-bottom: 2px solid forestgreen;
 }
@@ -83,7 +77,6 @@
     color: forestgreen;
 }
 
-/* Add a grey background to dropdown links on hover */
 .dropdown-content a:hover {
   border-bottom: 2px solid forestgreen;
   color: black;
@@ -94,7 +87,7 @@
   display: block;
 }
   
-  /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+  /* When the screen is less than 768 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 768px) {
   .topnav a:not(:first-child), .dropdown .dropbtn {
     display: none;

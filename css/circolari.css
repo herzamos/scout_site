@@ -6,8 +6,7 @@
 }
 
 .heading-circolari span {
-    padding-left: 40%;
-    padding-right: 40%;
+    display: block;
     padding-bottom: 5px;
     padding-top: 5px;
 }
