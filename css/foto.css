@@ -1,0 +1,24 @@
+.gallery-wrapper {
+    display: block;
+    height: 450px;
+}
+
+.gallery {
+    float: left;
+    width:70%; 
+    height:400px; 
+}
+
+.gallery-description-right {
+    font-family: openSans;
+    font-weight: 400;
+    float: left;
+    width: 30%;
+}
+
+.gallery-description-left {
+    font-family: openSans;
+    font-weight: 400;
+    float: left;
+    width: 30%;
+}

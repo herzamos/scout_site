@@ -87,7 +87,7 @@ main {
     }
     
     footer {
-    
+        display: block;
         background-color: #333333;
         padding-top: 3%;
         padding-bottom: 7%;
@@ -116,6 +116,7 @@ main {
         color: white;
         font-size: 10pt;
         text-align: center;
+        display: block;
     }
 
     footer div {
