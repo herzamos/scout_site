@@ -26,13 +26,26 @@
             </script>
         </header>
         <main>
-            <div>
+            <div class="map-wrapper">
                 <h1>La sede di Stabio</h1>
-                <div id="map1"></div>
+                <div id="map1" class="map"></div>
+                <div class="indicazioni">
+                    <p>Indicazioni per raggiungere la sede.</p>
+                </div>
+                <div>
+                    <iframe class="swiss-map" src='https://map.geo.admin.ch/embed.html?lang=it&topic=ech&bgLayer=ch.swisstopo.pixelkarte-farbe&layers=ch.swisstopo.zeitreihen,ch.bfs.gebaeude_wohnungs_register,ch.bav.haltestellen-oev,ch.swisstopo.swisstlm3d-wanderwege,KML%7C%7Chttps:%2F%2Fpublic.geo.admin.ch%2FSBnCoWmVSou4vhPRdXLSkg&layers_opacity=1,1,1,0.8,1&layers_visibility=false,false,false,false,true&layers_timestamp=18641231,,,,&E=2716549.45&N=1078838.92&zoom=10' frameborder='0' style='border:0'></iframe>
+                </div>
+                
             </div>
-            <div>
+            <div class="map-wrapper">
                 <h1>La sede di Rancate</h1>
-                <div id="map2"></div>
+                <div id="map2" class="map"></div>
+                <div class="indicazioni">
+                    <p>Indicazioni per raggiungere la sede.</p>
+                </div>
+                <div>
+                    <iframe class="swiss-map" src='https://map.geo.admin.ch/embed.html?lang=it&topic=ech&bgLayer=ch.swisstopo.pixelkarte-farbe&layers=ch.swisstopo.zeitreihen,ch.bfs.gebaeude_wohnungs_register,ch.bav.haltestellen-oev,ch.swisstopo.swisstlm3d-wanderwege,KML%7C%7Chttps:%2F%2Fpublic.geo.admin.ch%2FSBnCoWmVSou4vhPRdXLSkg&layers_opacity=1,1,1,0.8,1&layers_visibility=false,false,false,false,true&layers_timestamp=18641231,,,,&E=2718747.00&N=1081437.00&zoom=9' frameborder='0' style='border:0'></iframe>                
+                </div>
             </div>
             <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyALJwXKbNGsQbggpOx6sL-pO_m6z9LEko4"></script>
         </main>
