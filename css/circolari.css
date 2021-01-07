@@ -1,11 +1,11 @@
 .heading-circolari {
-    color: white;
     text-align:center;
     display: block;
     text-align: center;
 }
 
 .heading-circolari span {
+    color: white !important;
     display: block;
     padding-bottom: 5px;
     padding-top: 5px;
